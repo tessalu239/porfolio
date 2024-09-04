@@ -1,2 +1,13 @@
-$primary: red;
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+// Font
+$font-family-sans-serif: "Jost", sans-serif;
+
+//Color
+$primary: #ff651c;
+$secondary: #cb612f;
+$dark: #373737;
+$gray: #555;
+
+//Link
+$link-hover-color: $secondary;
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

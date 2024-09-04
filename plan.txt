@@ -1,0 +1,20 @@
+Tessa Lu
+
+Home
+About Me
+Services
+Skills
+Portfolio
+
+Contact Now
+
+Hi, My name is Tessa
+I'm a 
+Based in Toronto, ON Canada.
+About Me
+
+I am currently pursuing an advanced diploma in Computer Programming and Analysis at Seneca Polytechnic, where I am developing a strong foundation in software development. 
+
+With a passion for front-end web development, I have gained knowledge and experience in various programming languages and technologies, including HTML, CSS, JavaScript, C/C++, Python, and TypeScript. Additionally, I am familiar with modern front-end frameworks and libraries like React.js, Vue.js, and Angular. I also work with tools such as Sass/SCSS and Bootstrap to enhance my web development projects. My goal is to create engaging, user-friendly web applications that offer seamless experiences while staying updated with the latest trends in web technologies.
+
+Project Completed
