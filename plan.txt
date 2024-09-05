@@ -17,4 +17,18 @@ I am currently pursuing an advanced diploma in Computer Programming and Analysis
 
 With a passion for front-end web development, I have gained knowledge and experience in various programming languages and technologies, including HTML, CSS, JavaScript, C/C++, Python, and TypeScript. Additionally, I am familiar with modern front-end frameworks and libraries like React.js, Vue.js, and Angular. I also work with tools such as Sass/SCSS and Bootstrap to enhance my web development projects. My goal is to create engaging, user-friendly web applications that offer seamless experiences while staying updated with the latest trends in web technologies.
 
+20+
 Project Completed
+
+What Can I Do?
+1. Front-End Web Development
+ Building responsive and visually engaging websites using HTML, CSS, and JavaScript. I have experience working with frameworks like React and Vue.js to create dynamic user interfaces. I focus on optimizing performance and ensuring cross-device compatibility while collaborating with designers to bring their vision to life through code.
+
+2. Web Design
+ I focus on creating visually appealing and user-friendly layouts using tools like Adobe XD, Figma, and Photoshop. I design wireframes, prototypes, and final interfaces that align with the brand’s identity and ensure a seamless user experience. I collaborate with front-end developers to bring my designs to life, ensuring consistency and functionality across all devices.
+
+3. Back-End Web Development
+ building and managing the server-side logic that powers web applications. I develop APIs, manage databases (SQL/NoSQL), and ensure secure, efficient data handling. Using languages like Python or Node.js, I focus on creating scalable and reliable back-end systems that seamlessly integrate with the front end.
+
+4. Full-Stack Development
+I handle both front-end and back-end development, allowing me to build complete web applications. I develop user interfaces with HTML, CSS, and JavaScript, while also managing databases and server-side logic using Node.js or Python. I ensure seamless integration between the front and back ends, creating efficient, scalable applications.
