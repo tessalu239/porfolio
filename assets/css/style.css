@@ -142,7 +142,7 @@ a:hover {
 
 /*BACKGROUND COLOR*/
 .bg-gray {
-  background-color: rgba(254, 196, 72, 0.15);
+  background-color: rgba(254, 196, 72, 0.1);
 }
 
 .bg-1 {
@@ -478,4 +478,45 @@ a:hover {
   margin: 0;
   color: var(--bs-dark);
   padding-left: 15px;
+}
+
+.portfolio-box .portfolio-img {
+  position: relative;
+  border: 2px solid var(--bs-dark);
+  box-shadow: 0 0 0 0 var(--bs-dark);
+  transition: 0.3s;
+}
+
+.portfolio-box .portfolio-img:hover {
+  box-shadow: 5px 5px 0 0 var(--bs-dark);
+}
+
+.portfolio-box .portfolio-text span {
+  display: inline-block;
+  padding: 8px 20px;
+  background: rgba(255, 101, 28, 0.2);
+  color: var(--bs-dark);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 30px;
+  margin-bottom: 18px;
+}
+
+.portfolio-box .portfolio-text h4 {
+  color: var(--bs-dark);
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .portfolio-box .portfolio-text h4 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+.portfolio-box .portfolio-text .colored-btn {
+  font-size: 12px;
 }
