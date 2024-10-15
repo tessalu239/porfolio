@@ -408,11 +408,11 @@ a:hover {
 .featured-box:hover {
   box-shadow: 5px 5px 0 0 var(--bs-dark);
 }
-.featured-box img {
-  overflow: hidden;
-  margin: 0 auto;
-  border: 2px solid #373737 !important;
-}
+// .featured-box img {
+//   overflow: hidden;
+//   margin: 0 auto;
+//   border: 2px solid #373737 !important;
+// }
 @media (max-width: 767px) {
   .featured-box {
     padding: 30px;
