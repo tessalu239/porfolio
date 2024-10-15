@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/assets/css/fontawesome.css" />
     <link rel="stylesheet" href="/assets/css/bootstrap.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
     <title>Tessa Lu Portfolio</title>
   </head>
   <body>
@@ -182,7 +184,7 @@
 </section>
 
 <!-- What can I do?--Services -->
-<section id="services" class="section">
+<!-- <section id="services" class="section">
   <div class="container">
     <div class="section-heading"><h3>Projects Practice</h3></div>
     <div div class="row gy-4">
@@ -198,9 +200,9 @@
               </div>
             </div>
           </div>
-        </a>
+        </a> -->
 
-<a href="./frontend.html">
+<!-- <a href="./frontend.html">
   <div class="col">
     <div class="featured-box bg-2">
       <div class="icon"><i class="fa-solid fa-desktop"></i></div>
@@ -231,14 +233,14 @@
     </div>
   </div>
   </div>
-</section>
+</section> -->
 
 <!-- Work section -->
- <section id="portfolio"><div class="section bg-gray"><div class="container"><div class="section-heading"><h3>Latest Projects</h3>
+ <!-- <section id="portfolio"><div class="section bg-gray"><div class="container"><div class="section-heading"><h3>Latest Projects</h3>
  </div>
- <div class="portfolio-box">
+ <div class="portfolio-box"> -->
   <!-- Project 1 -->
-  <div class="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 justify-content-around align-items-center">
+  <!-- <div class="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 justify-content-around align-items-center">
     <div class="col-md-6 col-lg-5">
       <div class="portfolio-img">
         <img src="assets/img/project-1.png" alt="HealthyNite Project Hero on Phone and Laptop">
@@ -255,7 +257,7 @@
     </div>
  </div>
  <!-- Project 2 -->
- <div class="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 justify-content-around align-items-center flex-row-reverse">
+ <!-- <div class="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 justify-content-around align-items-center flex-row-reverse">
   <div class="col-md-6 col-lg-5">
     <div class="portfolio-img">
       <img src="assets/img/project-2.png" alt="HealthyNite Project Hero on Phone and Laptop">
@@ -273,9 +275,9 @@
       <a href="https://yavin-website-beta.vercel.app/" class="colored-btn mt-1">Visit website</a>
     </div>
   </div>
-</div>
+</div>  -->
 <!-- Project-3 -->
-<div
+<!-- <div
               class="row gx-3 pb-3 mb-5 pb-lg-3 gy-4 justify-content-around align-items-center"
             >
               <div class="col-md-6 col-lg-5">
@@ -310,6 +312,201 @@
 </div>
 </div>
 </div>
+</section> -->
+
+<!--Project section-->
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <h3>Projects Practice</h3>
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <div class="featured-box mb-4" >
+            <div class="img">
+              <img src="assets/img/project-1.png" alt="HealthyNite Project Hero on Phone and Laptop"/>
+              <a href="https://healthybite-website.vercel.app/" class="colored-btn mt-3 d-sm-block  d-md-none text-center">Visit website</a>
+            </div>
+            <div class="content d-sm-none d-md-block">
+              <small>Node, EXPRESS, HTML/CSS/JS, MongoDB, Bootstrap</small>
+              <h4 class="mv-0 text-dark fw-semibold">Building Website for A Meal Delivery Company</h4>
+              <p>HealthyBite is a Canadian meal delivery company offering recipe innovation and doorstep convenience. As a full-stack programmer, I ensure seamless platform operation, from recipe development to building user-friendly interfaces and APIs. We collaborate with local suppliers to prioritize quality and sustainability, enhancing the culinary experience for every customer.</p>
+              <p>As a user, you can sign up and explore either the "customer" role, allowing you to purchase meals, or the "data clerk" role, enabling you to edit meals. Both roles are available on the website for you to explore.</p>
+              <a href="https://healthybite-website.vercel.app/" class="colored-btn mt-3 d-sm-none d-md-inline-block ">Visit website</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <div class="featured-box mb-4">
+            <div class="img">
+              <img
+              src="assets/img/project-4.png"
+              alt="Guess My Number Game Project"
+              />
+              <a
+              href="https://guess-my-number-game-gamma.vercel.app/"
+              class="colored-btn mt-3  d-sm-block  d-md-none text-center"
+              >Visit website</a
+              >
+            </div>
+            <div class="content d-sm-none d-md-block">
+              <small>Javascript</small>
+              <h4 class="mv-0 text-dark fw-semibold">
+                Building Function for Guess My Game</h4>
+                <p>
+                The frontend provides an interactive game interface,
+                allowing users to input guesses, receive feedback, and track
+                their progress in real-time. Using CSS, I styled the game
+                interface, including the input fields and feedback messages,
+                ensuring a clean and responsive design across devices.
+              </p>
+              <p>
+                JavaScript manages the game's functionality, including
+                generating a random number, handling user guesses, providing
+                feedback (too high, too low, or correct), and updating the
+                score. The game’s logic controls turn management and gives
+                users the option to restart the game at any time.
+              </p>
+              <a
+              href="https://guess-my-number-game-gamma.vercel.app/"
+              class="colored-btn mt-3 d-md-inline-block "
+              >Visit website</a
+            >
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item"  data-bs-interval="4000">
+          <div class="featured-box mb-4">
+            <div class="img">
+              <img
+              src="assets/img/project-6.png"
+              alt="Travel Prepare tool screen"
+              />
+              <a
+              href="https://checking-prep-travel-list.vercel.app/"
+              class="colored-btn mt-3  d-sm-block  d-md-none text-center"
+              >Visit website</a
+              >
+            </div>
+            <div class="content d-sm-none d-md-block">
+              <small>ReactJS</small>
+              <h4 class="mv-0 text-dark fw-semibold">
+                A Prep-tool for Travelers</h4>
+                <p>
+                  This is a small project building a prepare list tool for
+                  traveling using
+                  <strong> React.js</strong>. This give people way to make a
+                  list by themselves, cross out when stuff already packed and
+                  the app also gives a brief status by telling them how many
+                  percentage they already packed. Not even that, they have
+                  options to sort out the list for easier to keep track.
+                  Lastly, clear out it for the next trip ✈️
+                </p>
+                <a
+                href="https://checking-prep-travel-list.vercel.app/"
+                class="colored-btn mt-3 d-md-inline-block "
+                >Visit website</a
+                >
+              </div>
+            </div>
+            
+        </div>
+
+
+        <div class="carousel-item"  data-bs-interval="4000">
+          <div class="featured-box mb-4">
+            <div class="img">
+              <img
+              src="assets/img/project-5.png"
+              alt="Omnifood Project Hero"
+              />
+              <a
+              href="https://omnifood-website-eta.vercel.app/"
+              class="colored-btn mt-3  d-sm-block  d-md-none text-center"
+          >Visit website</a
+          >
+        </div>
+        <div class="content d-sm-none d-md-block">
+          <small>HTML/CSS/JS</small>
+          <h4 class="mv-0 text-dark fw-semibold">
+            Building Website for A Meal Company</h4>
+            <p>
+              This client-side website for a meal company highlights their
+              expertise in delivery healthy food. Built with
+                      <strong>HTML/CSS/Javascript </strong> the site features a
+                      modern, responsive design with sections for showcasing
+                      projects, detailing services, and providing contact
+                      information. The goal is to present the company’s design
+                      capabilities effectively while ensuring an intuitive user
+                      experience.
+                    </p>
+            <a
+            href="https://omnifood-website-eta.vercel.app/"
+            class="colored-btn mt-3 d-md-inline-block "
+            >Visit website</a
+          >
+        </div>
+      </div>
+        </div>
+        <div class="carousel-item"  data-bs-interval="4000">
+          <div class="featured-box mb-4">
+            <div class="img">
+              <img
+              src="assets/img/project-2.png"
+                          alt="Yavin Project Hero"
+                        />
+                        <a
+                        href="https://yavin-website-beta.vercel.app/"
+                        class="colored-btn mt-3  d-sm-block  d-md-none text-center"
+                        >Visit website</a
+                        >
+                      </div>
+                      <div class="content d-sm-none d-md-block">
+              <small>Bootstrap, HTML/CSS/JS</small>
+              <h4 class="mv-0 text-dark fw-semibold">
+                Building Client Side Website for A Office Design Company
+              </h4>
+              <p>
+                This client-side website for an office design company
+                highlights their expertise in crafting functional and
+                stylish office spaces. Built with
+                <strong> Bootstrap 5.0, HTML, and CSS, </strong>the site
+                features a modern, responsive design with sections for
+                showcasing projects, detailing services, and providing
+                contact information. The goal is to present the company’s
+                design capabilities effectively while ensuring an intuitive
+                user experience.
+              </p>
+              <a
+              href="https://yavin-website-beta.vercel.app/"
+              class="colored-btn mt-3 d-md-inline-block "
+              >Visit website</a
+              >
+            </div>
+          </div>
+        </div>
+          
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
 </section>
 
 <!-- Contact Section -->
@@ -323,7 +520,7 @@
           </div>
           <div class="col ps-3"><h5>Phone</h5><p>(437) 970 7023</p></div>
         </li>
-
+        
         <li>
           <div class="icon bg-2">
             <i class="fa-regular fa-envelope"></i>
@@ -337,16 +534,18 @@
           <div class="col ps-3"><h5>Linkedin</h5> <a
             href="https://www.linkedin.com/in/tessalu/"
             >Minh Thu Lu</a
-          ></div>
-        </li>
-      </ul>
+            ></div>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/typed.umd.js"></script>
-    <script src="/assets/js/script.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/typed.umd.js"></script>
+  <script src="/assets/js/script.js"></script>
+  <script src="/assets/js/owl.carousel.min.js"></script>
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
   </body>
 </html>
